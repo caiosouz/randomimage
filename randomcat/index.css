@@ -1,0 +1,26 @@
+* {
+    margin: 0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background:linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)), url(https://source.unsplash.com/random) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container .content{
+    text-align: center;
+}
+
+.container .content p{
+    font-size: 25px;
+    color: #fff;
+    padding: 5px 0;
+}
